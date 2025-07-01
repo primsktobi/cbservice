@@ -1,0 +1,933 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(darkred, red);
+    font-family: "montserrat", sans-serif;
+    height: 160px;
+}
+
+
+
+ /* LES HEADER ET CES ELEMENTS */
+
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: relative;
+margin: 0px 15%;
+margin-bottom: 15px;
+box-shadow: 0 2px 0.7em;
+z-index: 1;
+}
+
+/* logo du site */
+img{
+    height: 100px;
+    padding: 1px;
+    border: 3px solid white;
+    border-radius: 50px;
+    box-shadow: 0px 0 0.4em 7px black;
+    
+}
+
+nav.alignement{
+  display: inline-flex;
+}
+
+nav.alignement li{
+  list-style: none;
+}
+a.nava{
+    
+    display: inline-flex;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    background-color: ;
+    box-shadow: 7px 5px 0.5em black ;
+    transition: 0.4s ease;
+    margin: 0px 10px;
+    padding: 2px;
+}
+
+a.nava-3{
+    
+  display: inline-flex;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  background-color: ;
+  box-shadow: 7px 5px 0.5em black ;
+  transition: 0.4s ease;
+  margin: 0px 10px;
+  padding: 2px;
+}
+
+a.nava:hover{
+
+   cursor: pointer;
+   transform: scale(1.1);
+   transition: 0.4s ease;
+}
+
+.cont{
+   padding: 5px;
+    background-color: rgb(51, 51, 188);
+    border-radius: 20px;
+   margin-left: 2px;
+   transition: 0.3s ease;
+   color: white;
+  
+}
+
+
+.cont:hover{
+transform: skewX(20deg);
+transition: 0.3s ease;
+background-color: antiquewhite;
+color: blue;
+}
+
+
+.main-pub{
+   background-image: linear-gradient(darkred, red);
+}
+
+main{
+  background-color: rgb(30, 30, 30);
+}
+
+/* NAVIGATION DU MAIN */
+
+div.nav{
+    margin: 10px 40%;
+    background-image: linear-gradient(darkred, brown);
+    box-shadow: 4px 0px 0.7em 5px rgb(37, 35, 35);
+    padding: 7px ;
+    justify-content: space-between;
+}
+
+
+
+button.nav{
+    display: inline flex;
+    list-style: none;
+ background-color: blue;
+ color: white;
+ text-decoration: none;
+ transition: 0.4s ease;
+ border-radius: 15px;
+ margin-left: 15px;
+}
+
+button.nav:hover{
+    display: inline flex;
+    list-style: none;
+ background-color: white;
+ color: blue;
+ text-decoration: none;
+ transition: 0.4s ease;
+ border-radius: 50px;
+ transform: translateY(5px);
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+ 
+h2.pub, h3.pub{
+
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* z-index: 1; */
+    box-shadow: 0 5px 0.3em rgb(182, 238, 144);
+    border: 1px solid lightgray; 
+    border-radius: 10px;
+    color: black;
+    background-color:  rgb(182, 238, 144) ;
+
+} 
+
+h3.pub{
+  margin-bottom: 30px;
+}
+
+.prix{
+  font-size: 18px;
+  color: rgb(137, 147, 147);
+  box-shadow: 0 0 0.5em lightyellow;
+}
+
+/* LES ELEMENTS DU MAIN  */
+
+.main-1{
+    position: relative;
+    display: flex;
+    padding: 0% 5%;
+    justify-content: space-between;
+
+}
+
+.travail{
+    background-image: linear-gradient(darkred, red);
+    height: 400px;
+    width: 400px;
+    box-shadow: 0 5px 0.3em black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.4s ease;
+    
+}
+
+.travail-2{
+    background-image: linear-gradient(darkred, red);
+    height: 400px;
+    width: 400px;
+    box-shadow: 0 5px 0.3em black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.4s ease;
+    
+}
+
+h2.taff{
+    margin: 10px 15%;
+    border: 1px solid darkred;
+    padding-left: 20px;
+    box-shadow: 0 0 0.5em red;   
+}
+h2.taff-2{
+    margin: 10px 15%;
+    border: 1px solid darkred;
+    padding-left: 20px;
+    box-shadow: 0 0 0.5em white;   
+}
+
+#ex, #cv{
+   padding-left: 50px;}
+
+.message{
+    border: 2px solid darkred;
+    padding:10px;
+    margin-left: 8px;
+    border-radius: 10px;
+    background-color: rgb(33, 30, 30);
+    width: 90%;
+    text-align: center;
+}
+
+.clic{
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+.clic a {
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+    transition: 0.3S ease;
+  }
+  
+  .clic a:hover {
+    color: gold;
+    text-shadow: 0 0 5px black;
+    transition: 0.3s ease;
+  }
+
+
+/* LES HOVER DU MAIN-1  */
+
+.travail:hover{
+    background-image: linear-gradient(darkred, red);
+    transform: skew(-3deg);
+    transition: 0.4s ease;
+    height: 400px;
+    width: 400px;
+    box-shadow: 0 5px 0.3em black ;
+}
+
+.travail-2:hover{
+    background-image: linear-gradient(darkred, red);
+    transform: rotate(3deg);
+    transition: 0.4s ease;
+    height: 400px;
+    width: 400px;
+    box-shadow: 0 5px 0.3em black ;
+}
+
+/* LES ELEMENTS DU MAIN  */
+
+.main-2{
+    display: flex;
+    padding: 2% 7%;
+    justify-content: space-between;
+
+}
+
+.main-3 {
+    display: flex;
+    justify-content: space-around;
+    padding: 3% 7%;
+  }
+  
+  .service {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-image: linear-gradient(red, darkred);
+    box-shadow: 0 5px 1em black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    color: white;
+    text-align: center;
+    transition: 0.3s ease;
+  }
+  
+  .service:hover {
+    transform: scale(1.05);
+    background-image: linear-gradient(darkred, red);
+  }
+  
+  .service h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .info {
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(33, 30, 30);
+    width: 90%;
+    margin-bottom: 10px;
+    
+  }
+  
+  .info-alt {
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    transition: 0.5s ease;
+   
+
+  }
+
+
+  .service a {
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+    transition: 0.3S ease;
+  }
+  
+  .service a:hover {
+    color: gold;
+    text-shadow: 0 0 5px black;
+    transition: 0.3s ease;
+  }
+
+  /* POUR LA CONNEXTION */
+
+.cbdigital{
+    display: none;
+    padding: 2% 7%;
+    justify-content: space-between;
+    position: relative;
+}
+
+.digital-1{
+    background-image: conic-gradient(white, black);
+    height: 400px;
+    width: 1200px;
+    margin: 20px 5%;
+    animation: couleure 3s ease infinite;
+    border-radius: 20px;
+   border: 2px solid black;
+   box-shadow: 0 0 0.3em black ;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+
+.gauche{
+display: flex;
+position: relative;
+}
+
+.g-1, .g-2{
+background-color: rgb(46, 41, 41);
+height: 350px;
+width: 400px;
+margin: 10px;
+border-radius: 25px;
+box-shadow: 0 0 0.5em rgb(221, 207, 207);
+}
+
+.img-g{
+    height: 350px;
+    width: 400px;
+    transition: 0.4s ease ;
+    
+}
+
+.img-g:hover{
+    height: 350px;
+    width: 400px;
+    transform: scale(1.1);
+    transition: 0.4s ease;
+    
+}
+
+
+.droite{
+    display: block;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.marquee-container {
+background-color: brown;
+border: 2px solid black;
+box-shadow: 0 0 0.5em black;
+width: 300px;
+margin-right: 30px;
+border-radius: 25px;
+overflow: hidden;
+
+}
+
+/* .marquee-container {
+    width: 300px;
+    overflow: hidden;
+    background-color: black;
+    padding: 10px 0;
+  } */
+  
+  .marquee {
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    animation: defilement 15s linear infinite;
+    cursor: pointer;
+  }
+
+
+ .marquee:hover{
+    animation-play-state: paused;
+ }
+  
+  @keyframes defilement {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+
+  .d-b{
+    position: relative;
+    background-color: rgb(46, 41, 41);
+border: 2px solid black;
+box-shadow: 0 0 0.5em black;
+width: 300px;
+height: 200px;
+margin-top: 40px;
+margin-right: 30px;
+border-radius: 25px;
+
+  }
+  
+
+  .img-d{
+    position: relative;
+    width: 140px;
+    height: 200px;
+    transition: 0.4s ease;
+  }
+
+  .img-d:hover{
+    position: relative;
+    width: 140px;
+    height: 200px;
+    transition: 0.4s ease;
+    transform: translateY(-10px);
+  }
+
+  
+/* POUR LA VENTE */
+
+.vente{
+  display: flex;
+  background-image: conic-gradient(white, black);
+  height: 400px;
+  width: auto;
+  margin: 20px 0%;
+  animation: couleure 3s ease infinite;
+  border-radius: 20px;
+ border: 2px solid black;
+ box-shadow: 0 0 0.3em black ;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ 
+}
+
+/* ------------------------------------ */
+
+footer{
+ width: auto;
+ height: auto;
+  color: white;
+  background-color: white;
+
+}
+
+div.icon{
+  margin: 10px 35%;
+  
+}
+
+.icon i{
+  margin: 0px 10px;
+}
+
+
+/* FOOTER */
+
+.footer{
+  display: flex;
+  position: relative;
+  
+}
+.btn-politique{
+background-color:  lightblue;
+border: 2px solid  lightblue;
+cursor: pointer;
+font-size: 20px;
+color: blue;
+transition: 0.4s ease;
+
+}
+
+.politique{
+  margin-left: 100px;
+  display: flex;
+  justify-content: left;
+  background-color: lightblue;
+  border-radius: 20px;
+  border: 2px solid lightcyan;
+  padding: 5px 10px;
+  animation: icones 5s ease infinite;
+  align-items: center;
+  list-style: none;
+ 
+  
+}
+@keyframes icones{
+  0% { box-shadow: 03px 04px 0.3em lightgreen;}
+  20% { box-shadow: 03px 04px 0.3em lightyellow;}
+  40% { box-shadow: 03px 04px 0.3em lightsalmon;}
+  60% { box-shadow: 03px 04px 0.3em lightslategray;}
+  80% { box-shadow: 03px 04px 0.3em lightseagreen;}
+  100% { box-shadow: 03px 04px 0.3em lightskyblue;}
+}
+
+.icon{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  border-radius: 20px;
+  padding: 10px 5px;
+  
+  animation: icone 5s ease infinite;
+}
+
+@keyframes icone{
+  0% { box-shadow: 03px 04px 0.3em lightgreen;}
+  20% { box-shadow: 03px 04px 0.3em lightyellow;}
+  40% { box-shadow: 03px 04px 0.3em lightsalmon;}
+  60% { box-shadow: 03px 04px 0.3em lightslategray;}
+  80% { box-shadow: 03px 04px 0.3em lightseagreen;}
+  100% { box-shadow: 03px 04px 0.3em lightskyblue;}
+}
+
+.Whatsapp{
+color: green;
+font-size: 20px;
+}
+
+.email{
+  color: white;
+  font-size: 20px;
+}
+
+
+.pfooter{
+  flex-wrap: wrap;
+  justify-content: left;
+  margin-left: 50px;
+  
+  border-radius: 35px;
+  border: 2px solid lightgreen;
+  background-color: lightblue;
+  height: 500px;
+  width: 500px;
+  padding: 5px 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent ;
+  animation: icone 3s ease infinite;
+  
+}
+
+div.div-logi{
+  margin: 3% 0px;
+}
+.logip{
+  background-color: red;
+}
+
+
+/* @media screen and (max-width: 430px) {
+.alignement{
+  background-color: blue;
+}
+
+    .droite {
+        display: none;
+    }
+    
+    .digital-1 {
+        width: 90%;
+    }
+    
+    .vente{
+       width: 700px;
+    }
+
+    .img-g{
+        width: 480px;
+    }
+
+    .g-2{
+        display: none;
+    }
+
+    .clic{
+        display: none;
+    }
+
+    .info-alt {
+        display: none;
+    }
+
+} */
+
+@media screen and ( max-width: 500px ) {
+ 
+  header{
+    width: 360px;
+    padding-right: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin: 0px 5%;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 0.7em;
+    z-index: 1;
+    }
+  
+  .alignement li{
+    position: relative;
+  }
+  a.nava{
+    
+    display: inline-flex;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    background-color: ;
+    box-shadow: 7px 5px 0.5em black ;
+    transition: 0.4s ease;
+    margin: 0px 5px;
+    padding: 2px;
+}
+
+
+  a.nava-3{
+    
+    display: none;
+    color:red;
+    text-decoration: none;
+    list-style: none;
+    background-color: ;
+    box-shadow: 7px 5px 0.5em black ;
+    transition: 0.4s ease;
+    margin: 0px 10px;
+    padding: 2px;
+}
+
+  .alignement-2{
+    display: none;
+  }
+
+  div.nav{
+    height: auto;
+    width: 50%;
+    justify-content: flex;
+    align-items: center;
+    display: flex;
+    margin-right: 50%;
+    margin-left: 20%;
+    
+  
+  }
+   button.nav{
+    align-items: center;
+   }
+  
+   section.main-1{
+    display: block;
+   }
+  
+   .travail:hover{
+    background-image: linear-gradient(darkred, red);
+    transform: skew(-3deg);
+    transition: 0.4s ease;
+    height: 350px;
+    width: 350px;
+    box-shadow: 0 5px 0.3em black ;
+  }
+  
+  .travail-2:hover{
+    background-image: linear-gradient(darkred, red);
+    transform: rotate(3deg);
+    transition: 0.4s ease;
+    height: 350px;
+    width: 350px;
+    box-shadow: 0 5px 0.3em black ;
+  }
+   .travail{
+    height: 350px;
+  width: 350px;
+  margin: 2% 0px;
+   }
+  
+   section.main-2{
+    display: block;
+   }
+   .travail-2{
+    height: 350px;
+  width: 350px;
+  margin: 2% 0px;
+  
+   }
+  
+   h2.taff-2{
+    text-align: center;
+   text-wrap: wrap;
+  }
+   
+  
+   section.main-3{
+    display: block;
+   }
+  
+   div.service{
+    height: 350px;
+  width: 300px;
+  margin: 2% 0px;
+   }
+
+   .footer{
+   width: 60%;
+   align-items: center;
+   justify-content: center;
+   }
+
+   .rpolitique{
+  margin-left: 45%;
+   }
+
+   div.icon{
+    margin: 10px 5%;
+   }
+
+div.footer-2{
+justify-content: left;
+margin-left: 1px;
+}
+
+   .pfooter{
+    flex-wrap: wrap;
+    justify-content: left;
+    border-radius: 35px;
+    border: 2px solid lightgreen;
+    background-color: lightblue;
+    height: 500px;
+    width: 350px;
+    padding: 5px 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;  
+   margin: 8px 2%;
+    
+  }
+
+  .cbdigital{
+    display: none;
+    padding: 2% 0px;
+    justify-content: center;
+    position: relative;
+    margin: 0px 0px;
+    overflow-x: hidden;
+}
+
+.digital-1{
+    background-image: conic-gradient(white, black);
+    height: auto;
+    width: 373px;
+    padding: 3% 0px;
+    margin: 20px 0%;
+    animation: couleure 3s ease infinite;
+    border-radius: 20px;
+   border: 2px solid black;
+   box-shadow: 0 0 0.3em black ;
+   display: block;
+   justify-content: space-between;
+   align-items: center;
+   margin-left: 10px;
+}
+
+.gauche{
+display: block;
+justify-content: center;
+
+}
+div.marquee-container{
+  justify-content: center;
+  margin-left: 10%;
+}
+
+.g-1, .g-2{
+background-color: rgb(46, 41, 41);
+height: 350px;
+width: 350px;
+border-radius: 25px;
+box-shadow: 0 0 0.5em rgb(221, 207, 207);
+}
+
+.img-g{
+    height: 350px;
+    width: 350px;
+    transition: 0.4s ease ;
+    
+}
+
+.img-g:hover{
+    height: 350px;
+    width: 400px;
+    transform: scale(1.1);
+    transition: 0.4s ease;
+    
+}
+
+
+.droite{
+    display: block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin-left: 5%;
+}
+
+.d-b{
+ width: 335px;
+ height: 220px;
+ margin: auto 0px;
+ 
+ 
+}
+
+.img-d{
+  position: relative;
+  width: 140px;
+  height: 200px;
+  transition: 0.4s ease;
+  margin-right: 5%;
+}
+
+.img-d:hover{
+  position: relative;
+  width: 140px;
+  height: 200px;
+  transition: 0.4s ease;
+  transform: translateY(-10px);
+}
+
+section.digital-2{
+margin-left: 10px; 
+
+
+}
+
+div.div-logi{
+margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: conic-gradient( blue, green);
+  z-index: 1;
+}
+
+
+.jeuxb{
+  height: 106.8px;
+  width: 186.49px;
+  margin-right: 28px;
+}
+.jeuxf{
+  height: 106.8px;
+  width: 186.49px;
+  margin-right: 15px;
+}
+
+.jeuxg{
+  height: 106.8px;
+  width: 186.49px;
+}
+
+.jeuxw{
+  margin: 0px 25%;
+  height: 120px;
+  width: 200px;
+}
+
+}
+
+
+
+
+
+
